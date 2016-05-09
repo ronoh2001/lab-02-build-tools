@@ -1,6 +1,6 @@
 'use strict';
-//importing greet method from greetings.js
-const greet = require(__dirname + '/lib/greet').greet;
+
+const greet = require(__dirname + '/lib/greet');
 
 //declare a const variable main
 //assign module.exports and main the value of a function
