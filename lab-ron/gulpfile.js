@@ -10,8 +10,8 @@ gulp.task('mocha', function(){
 });
 gulp.task('eslint', function (){
   return gulp.src(['index.js', 'lib/*.js', 'test/greet-test.js']).pipe(eslint())
-  .pipe(eslint.format())
-  .pipe(eslint.failAfterError());
+  .pipe(eslint.format());
+  // .pipe(eslint.failAfterError());
 });
 
 gulp.task('watch', function(){
