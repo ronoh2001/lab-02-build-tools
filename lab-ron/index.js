@@ -1,6 +1,6 @@
 'use strict';
 
-const greet = require(__dirname + '/lib/greet');
+const greet = require(__dirname + '/lib/greet').greet;
 
 //declare a const variable main
 //assign module.exports and main the value of a function
